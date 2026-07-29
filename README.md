@@ -4,7 +4,7 @@ Landing page estática para o Studio Aura, com visual escuro, acabamento dourado
 
 ## Arquivos principais
 
-- `landing-aura.html` — página principal do projeto
+- `index.html` — página principal do projeto
 - `assets/` — vídeos, imagens e demais recursos usados pela página
 
 ## Destaques
@@ -31,31 +31,20 @@ python -m http.server 8000
 Depois acesse:
 
 ```text
-http://localhost:8000/landing-aura.html
+http://localhost:8000/index.html
 ```
 
-Se quiser usar a página como homepage sem precisar digitar o nome do arquivo, renomeie `landing-aura.html` para `index.html`.
+A página já está configurada como `index.html`, então não é necessário renomear nada.
 
 ## Deploy no GitHub Pages
 
-### Opção 1 — mantendo `landing-aura.html`
+### Deploy no GitHub Pages
 
 1. Crie um repositório no GitHub e envie todo o conteúdo do projeto.
 2. No repositório, vá em **Settings > Pages**.
 3. Em **Source**, selecione a branch `main` (ou `master`) e a pasta `/ (root)`.
 4. Salve.
 5. Acesse:
-
-```text
-https://<seu-usuario>.github.io/<nome-do-repositorio>/landing-aura.html
-```
-
-### Opção 2 — usar como página principal (`index.html`)
-
-1. Renomeie `landing-aura.html` para `index.html`.
-2. Envie as mudanças para o GitHub.
-3. Habilite o GitHub Pages na branch `main` (ou `master`) e pasta `/ (root)`.
-4. Depois acesse:
 
 ```text
 https://<seu-usuario>.github.io/<nome-do-repositorio>/
