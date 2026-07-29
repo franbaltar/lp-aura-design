@@ -2,6 +2,14 @@
 
 Landing page estática para o Studio Aura, com visual escuro, acabamento dourado e vídeo de ambientação.
 
+## Tecnologias usadas
+
+- HTML5
+- CSS3
+- JavaScript puro (vanilla)
+- Google Fonts (`Playfair Display`, `Manrope`)
+- GitHub Pages
+
 ## Arquivos principais
 
 - `index.html` — página principal do projeto
@@ -53,5 +61,5 @@ https://<seu-usuario>.github.io/<nome-do-repositorio>/
 ## Observações
 
 - Não é necessário instalar dependências.
-- Mantenha a pasta `assets/` no mesmo nível de `landing-aura.html`/`index.html`.
+- Mantenha a pasta `assets/` no mesmo nível de `index.html`.
 - Se o vídeo não carregar, verifique se os arquivos `assets/interior-dark-video.mp4` e `assets/video-camadas.mp4` estão presentes.
